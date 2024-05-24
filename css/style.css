@@ -1,0 +1,95 @@
+
+body {
+    font-family: "Nunito", sans-serif;
+  }
+  :root{
+      --hoverbg_color: #104CBA;
+      --bg_color: #ffffff;
+      --text_color1 : #91B3F0;
+      --title_color : #1D2C38;
+      --title_color2 : #74787C;
+      --iconbg_color : #EFF2F8;
+      --box_shadow_color : #4B5D90;
+  }
+  h3{
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--title_color);
+  }
+  p{
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--title_color2);
+      line-height: 26px;
+  }
+  img{
+      max-width: 100%;
+      display: block;
+      object-fit: cover;
+  }
+  #packge_section_area {
+      padding: 80px 0;
+  }
+  #packge_section_area .single_packge {
+	background: var(--bg_color);
+	box-shadow: 0 4px 46px #23273614;
+	padding: 60px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+#packge_section_area .single_packge:hover{
+    background: var(--hoverbg_color);
+}
+#packge_section_area .single_packge .pavkge_title h3 {
+	margin: 0;
+}
+#packge_section_area .single_packge .pavkge_title p {
+	font-size: 14px;
+	color: var(--title_color2);
+	font-weight: 400;
+}
+#packge_section_area .single_packge .packge_price h1 {
+	font-size: 48px;
+	font-weight: 800;
+	color: var(--title_color);
+	margin-bottom: 30px;
+}
+#packge_section_area .single_packge  .packge_btn {
+	background: var(--hoverbg_color);
+	padding: 15px 0;
+	text-align: center;
+	border-radius: 10px;
+}
+#packge_section_area .single_packge a.packge_btn {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 0.5px;
+    width: 100%;
+}
+#packge_section_area .single_packge .packge_support_list{
+    margin-bottom: 40px;
+}
+#packge_section_area .single_packge .packge_support_list p {
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--title_color2);
+}
+#packge_section_area .single_packge .packge_support_list p i {
+	margin-right: 10px;
+	
+}
+#packge_section_area .single_packge:hover .pavkge_title h3, #packge_section_area .single_packge:hover .pavkge_title p, #packge_section_area .single_packge:hover .packge_price h1, #packge_section_area .single_packge:hover .packge_support_list p{
+    color: var(--bg_color);
+}
+#packge_section_area .single_packge:hover .packge_btn{
+    background: var(--bg_color);
+}
+#packge_section_area .single_packge:hover a.packge_btn{
+    color: var(--hoverbg_color);
+}
